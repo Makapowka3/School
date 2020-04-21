@@ -23,6 +23,6 @@ Begin
   SetFontSize(20);
   SetBrushColor(clwhite);
   SetPenColor(clbrown);
-  TextOut(200,35,'Флаг Benin');
+  TextOut(200,35,'Г”Г«Г ГЈ Benin');
 End.
 
