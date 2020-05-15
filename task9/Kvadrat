@@ -1,0 +1,16 @@
+Uses GraphABC;
+begin
+randomize;
+SetWindowWidth(640);
+SetWindowHeight(460);
+FloodFill(200,200,clblack);
+SetBrushColor(clblack);
+for var i:=1 to 1000 do begin
+var x1:= random(640);
+var y1:= random(460);
+var x2:= random(640);
+var y2:= random(460);
+SetPenColor(clRandom);
+Rectangle(x1,y1,x2,y2);
+end;
+end.
