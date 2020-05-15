@@ -1,0 +1,13 @@
+Program StarSky;
+Uses GraphABC;
+Begin
+  Randomize;
+  SetWindowHeight(480);
+  SetWindowWidth(640);
+  FloodFill(200,200,clblack);
+  for var i:=1 to 1000 do begin
+var b:=random(640);
+var c:=random(480);
+putpixel(b,c,clwhite);
+  end;
+end.
