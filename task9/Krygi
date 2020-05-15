@@ -1,0 +1,15 @@
+Uses GraphABC;
+begin
+randomize;
+SetWindowWidth(640);
+SetWindowHeight(460);
+FloodFill(200,200,clblack);
+for var i:=1 to 1000 do begin
+var x1:= random(640);
+var y1:= random(460);
+var z1:= random(200);
+SetPenColor(clRandom);
+SetBrushColor(clRandom);
+Circle(x1,y1,z1);
+end;
+end.
