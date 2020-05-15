@@ -1,0 +1,22 @@
+Uses GraphABC;
+Var x1, y1, r, a1, a2: integer;
+begin
+randomize;
+SetWindowWidth(640);
+SetWindowHeight(460);
+FloodFill(200,200,clblack);
+SetBrushColor(clblack);
+
+
+
+for var i:=1 to 80 do begin
+    x1:= random(640);
+    y1:= random(460);
+    r:= random(100);
+    a1:= random(360);
+    a2:= random(360);
+    SetPenColor(clRandom);    
+    Arc(x1,y1,r,a1,a2);
+    
+end;
+end.
