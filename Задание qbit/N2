@@ -1,0 +1,5 @@
+var a: real;
+begin
+a:= ((0.3 * power(5,2)- 15) / (3.5 + power(2,2)));
+writeln(a);
+end.
