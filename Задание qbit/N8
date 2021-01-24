@@ -1,0 +1,6 @@
+var a: real;
+begin
+Writeln('Введите трехзначное число');
+readln(a);
+writeln('*****' + newline + '*' + a + '*' + newline + '*****');
+end.
