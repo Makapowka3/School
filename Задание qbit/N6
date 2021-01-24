@@ -1,0 +1,9 @@
+var a,b,c: real;
+begin
+writeln('Введите свое число');
+readln(a);
+b:= a+1;
+c:= a-1;
+Writeln('Число после ' + a + ' это ' + b);
+Writeln('Число перед ' + a + ' это ' + c);
+end.
