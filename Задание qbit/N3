@@ -1,0 +1,5 @@
+var a: string;
+begin
+a:=('program Helloworld'+ newline +'begin' + newline + '   Writeln(`hello world`);' + newline + 'end.');
+writeln(a);
+end.
